@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="test.jsp" method="post">
+   이름:<input type="text" name="name"><br>
+   나이:<input type="text" name="age"><br>
+   성별:<input type="radio" name="gender" value="1">남
+     <input type="radio" name="gender" value="2">여<br>
+ 
+  <input type="submit" value="전송"></form></body></html>
+</body>
+</html>
